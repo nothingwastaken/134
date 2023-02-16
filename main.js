@@ -3,11 +3,6 @@ var status = ""
 objects = [];
 var alert = "alert.mp3"
 
-
-function preload(){
-    img = loadImage("dog_cat.jpg");
-}
-
 function setup(){
     canvas = createCanvas(380, 380);
     canvas.center();
